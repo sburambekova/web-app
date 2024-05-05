@@ -1,0 +1,31 @@
+/* NAVBAR */
+.navbar{
+    padding: 30px;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-style:oblique;
+    padding-left: 7%;
+    font-size:50px;
+    text-transform: capitalize;
+}
+.navbar-nav{
+    padding-left: 10%;
+
+}
+
+.nav-link{
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    margin-left: 5px;
+    transition:0.6s;
+    border-radius: 20px;
+    text-transform: capitalize;
+
+}
+
+.nav-link:hover{
+    transform: translateY(-20px);
+    background: #dc34 ;
+}
