@@ -14,8 +14,8 @@
   </head>
   <body>
     <!-- NAV Bar starts -->
-    <nav class = "navbar navbar-expand-sm bg-dark navbar-dark">
-        <a href="" class="navbar-brand">event-page</a>
+    <nav class = "navbar navbar-expand-sm fixed-top">
+        <a href="" class="navbar-brand">Event Management System</a>
         <div>
             <ul class="navbar-nav">
                 <li class = "nav-item"><a href="" class="nav-link">home</a></li>
@@ -23,12 +23,147 @@
             </ul>
         </div>
 
-        <!-- Header starts -->
+
+        
 
 </nav>
+
+        <!-- Header starts -->
+        <div class = "header">
+            <div class = "img-parent">
+            
+                <div class = "img">
+                <img src = "photos/header_one1.png" alt = "">
+                </div>
+                <div class="img-overlay"></div>
+            </div>
+            <div class="img-content">
+                <h2>Attend an Event</h2>
+                <span>Attending an event is more than just showing up; it's about immersing yourself in a unique experience. Whether it's a concert, a conference, or a sports game, being part of an event can be exhilarating</span>
+            </div>
+        </div>
     
+
+        <!-- Event section start -->
+<div class="container event">
+
+    <div class = "row justify-content-center text-center">
+
+        <div class="offset-sm-1 col-sm-5">
+            <img src = "photos/john-newman-facts.jpg" class = "img-fluid" alt="">
+            <div class = "event-content">
+                <h4> John Newman's Concert</h4>
+                <span>Date: 23.05</span><br>
+                <span>Time: 19:00</span><br>
+                <a href="">join</a>
+            </div>
+        </div>
+    
+
+
+    
+        <div class="offset-sm-1 col-sm-5">
+            <img src = "photos/business-conf.jpeg" class = "img-fluid" alt="">
+            <div class = "event-content">
+                <h4> Business Conference</h4>
+                <span>Date: 10.05</span><br>
+                <span>Time: 14:00</span><br>
+                <a href="">join</a>
+            </div>
+        </div>
+
+        <div class="offset-sm-1 col-sm-5">
+            <img src = "photos/knitting.jpeg" class = "img-fluid" alt="">
+            <div class = "event-content">
+                <h4> Knitting Masterclass</h4>
+                <span>Date: 18.05</span><br>
+                <span>Time: 12:00</span><br>
+                <a href="">join</a>
+            </div>
+        </div>
+
+
+
+        <div class="offset-sm-1 col-sm-5">
+            <img src = "photos/art.jpeg" class = "img-fluid" alt="">
+            <div class = "event-content">
+                <h4> Art Exhibition</h4>
+                <span>Date: 20.05</span><br>
+                <span>Time: 8:00-23:00</span><br>
+                <a href="">join</a>
+            </div>
+        </div>
+
+
+
+        <div class="offset-sm-1 col-sm-5">
+            <img src = "photos/yoga.jpeg" class = "img-fluid" alt="">
+            <div class = "event-content">
+                <h4> Open Yoga Class</h4>
+                <span>Date: 15.05</span><br>
+                <span>Time: 09:00</span><br>
+                <a href="">join</a>
+            </div>
+        </div>
+
+
+
+        <div class="offset-sm-1 col-sm-5">
+            <img src = "photos/KoreanFlag-TaeKook.jpg" class = "img-fluid" alt="">
+            <div class = "event-content">
+                <h4> Korean Cultural Day</h4>
+                <span>Date: 22.05</span><br>
+                <span>Time: 12:00</span><br>
+                <a href="">join</a>
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+
+<!-- Footer starts -->
+<footer>
+    <div class = "container">
+        <div class="row">
+            <div class="col-sm-2">
+                <h6>
+                    About
+                </h6>
+                <span>Learn</span><br>
+               
+            </div>
+
+            <div class="col-sm-3">
+                <h6>
+                    Contacts
+                </h6>
+                <span>Phone: +7(700)7779809</span><br>
+                <span>Email: events.kz@gmail.com</span><br>
+            </div>
+
+            <div class="col-sm-2">
+                <h6>
+                    Subscribe
+                </h6>
+                <span>Instagram: @events.kz</span><br>
+               
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
-   
+   <!-- javascript -->
+
+
+    <script>
+        $(document).scroll(function(){
+            $(".navbar").toggleClass("scroll", $(this).scrollTop() > $(".navbar").height());
+        })
+    </script>
   </body>
 </html>
